@@ -1,0 +1,30 @@
+.Header {
+    grid-area: h;
+    background-color: green;
+    display: grid;
+    grid-template-areas:
+    "txlog acc srch";
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.textLogo {
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 50px;
+}
+
+.textLogo {
+    grid-area: txlog;
+    background-color: #26a69a;
+}
+
+.Account {
+    grid-area: acc;
+    background-color: chartreuse;
+}
+
+.Search {
+    grid-area: srch;
+    background-color: chocolate;
+}

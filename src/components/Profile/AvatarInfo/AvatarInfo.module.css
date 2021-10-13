@@ -1,0 +1,27 @@
+.AvatarInfo {
+    grid-area: ai;
+    display: grid;
+    grid-template-areas:
+    "av inf";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+    background-color: white;
+}
+
+.avatar {
+    grid-area: av;
+
+}
+
+.avatar img {
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Info {
+    grid-area: inf;
+    background-color: blue;
+    padding: 20px;
+    font-size: 20px;
+}

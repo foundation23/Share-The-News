@@ -1,0 +1,14 @@
+.Profile{
+    display: grid;
+    grid-template-areas:
+    "tp tp"
+    "ai n"
+    "mp n"
+    "mp n";
+    grid-template-columns: 2fr 0.7fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+
+
+

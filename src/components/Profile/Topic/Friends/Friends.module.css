@@ -1,0 +1,55 @@
+.Friends {
+    grid-area: f;
+    display: grid;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.friend1 {
+    grid-area: a;
+    background-color: #2e2e2e;
+}
+
+.friend2 {
+    grid-area: b;
+    background-color: firebrick;
+}
+
+.friend3 {
+    grid-area: c;
+    background-color: darkorange;
+}
+
+.friend4 {
+    grid-area: d;
+    background-color: green;
+}
+
+.friend5 {
+    grid-area: e;
+    background-color: khaki;
+}
+
+.friend6 {
+    grid-area: f;
+    background-color: oldlace;
+}
+
+.friend7 {
+    grid-area: g;
+    background-color: aquamarine;
+}
+
+.friend8 {
+    grid-area: h;
+    background-color: darkblue;
+}
+
+.friend9 {
+    grid-area: i;
+    background-color: darkgray;
+}

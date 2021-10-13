@@ -1,0 +1,9 @@
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,5 @@
+.NewsProfile {
+    grid-area: n;
+    background-color: aqua;
+    padding: 15px;
+}

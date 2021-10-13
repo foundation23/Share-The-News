@@ -1,0 +1,10 @@
+.Myposts {
+    grid-area: mp;
+    background-color: darkorange;
+    padding: 15px;
+}
+
+.title {
+    font-size: 20px;
+    padding: 15px;
+}
